@@ -1,0 +1,6 @@
+{
+    "require": {
+        "abuyoyo/mu-vendor-autoload": "^0.5.0",
+      "ext-mysqli": "*"
+    }
+}
