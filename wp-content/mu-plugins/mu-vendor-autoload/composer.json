@@ -1,0 +1,11 @@
+{
+    "name": "abuyoyo/mu-vendor-autoload",
+    "description": "Include Composer autoload.php (Wordpress mu-plugin)",
+	"type": "wordpress-muplugin",
+	"version": "0.5",
+	"time": "2020-02-10",
+	"license": "GPL-2.0+",
+	"require": {
+            "composer/installers": "~1.0"
+    }
+}
