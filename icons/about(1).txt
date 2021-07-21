@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Mukta Malar
+- Font Author: Copyright (c) 2016, Ek Type. All rights reserved.
+- Font Source: http://fonts.gstatic.com/s/muktamalar/v7/MCoXzAXyz8LOE2FpJMxZqLv4LfQJwHbn.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL)
