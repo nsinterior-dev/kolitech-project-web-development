@@ -1,0 +1,99 @@
+.dess{
+    position: relative;
+    top: 2vh;
+    font-family: Montserrat,sans-serif;
+    font-size: 2.5vh;
+    color: #00203FFF;
+    text-align: justify;
+    text-justify: inter-word;
+}
+.itsm-row-0{
+    width: 60vw;
+    height: 110vh;
+    left: 6.5vw;
+    position: absolute;
+    top: 110vh;
+}
+.itsm-row-div-0, .itsm-row-div-1,
+.itsm-row-div-2, .itsm-row-div-3{
+    width: 60vw; height: 20vh;
+    border: solid thin rgba(0,0,0,0.1);margin-top: 1.75vh;
+    position: relative;
+    top: 5vh;
+    border-radius: 2vh;
+}
+.itsm-row-div-0:hover, .itsm-row-div-1:hover,
+.itsm-row-div-2:hover, .itsm-row-div-3:hover{
+    box-shadow: 0.1vh 0.3vh 0.5vh 0.25vh rgba(0,0,0,0.4);
+}
+.itsm-1{
+    width: 7vw;
+    position: absolute;
+    margin: 2vh 3vh;
+}
+.itsm-2{
+    width: 7vw;
+    position: absolute;
+    margin: 1.5vh 3vh;
+}
+.itsm-3{
+    width: 6vw;
+    position: absolute;
+    margin: 1.5vh 3vh;
+}
+.itsm-sub
+{
+    margin: 2vh;
+    position: relative;
+    left: 8vw;
+    font-family:Montserrat-medium,sans-serif;
+    font-size: 2.75vh;
+    color: #112F4D;
+}
+
+.itsm-paragraph{
+    text-align: justify;
+    font-family: Montserrat,sans-serif;
+    font-size: 1.95vh;
+    margin: 2vh;
+    color:#778899;
+    width: 45vw;
+    position: relative;
+    left: 8vw;
+}
+.itsm-row-1{
+    width: 60vw;
+    height: 25vh;
+    left: 6.5vw;
+    position: absolute;
+    top: 225vh;
+    box-shadow: 0.25vh 0.1vh 1vh 0.3vh rgba(0,0,0,0.125);
+    border-top: solid 1vh #1E3D58;
+    border-bottom: solid 1vh #1E3D58;
+    border-radius: 2vh;
+}
+.advise-btn{
+    position: absolute;
+    top: 17vh;
+    left: 48.5vw;
+    padding: 1.5vh;
+    font-family: Montserrat,sans-serif;
+    font-size: 1.75vh;
+    outline: none;
+    border: solid thin rgba(0,0,0,0.1);
+    background-color: #112F4D;
+    color: #c3c8cd;
+}
+.advise-btn:hover{
+    outline: none;
+    background-color: #214872;
+    color: #dfe1e9;
+}
+.solutions-all{
+    margin: 1vh;
+    font-family: Oswald-Med,sans-serif;
+    font-size: 5vh;
+    color: #00203FFF
+    letter-spacing: 0.25vh;
+    text-transform: capitalize;
+}

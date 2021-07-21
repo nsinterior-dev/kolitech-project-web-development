@@ -1,0 +1,284 @@
+.dess{
+    position: relative;
+    top: 2vh;
+    font-family: Montserrat,sans-serif;
+    font-size: 2.5vh;
+    color: #00203FFF;
+    text-align: justify;
+    text-justify: inter-word;
+}
+.cybersecurity-services{
+    width: 60vw;
+    height: 100vh;
+    left: 6.5vw;
+    position: absolute;
+    top: 155vh;
+
+
+}
+.cyber-services{
+    font-family: Oswald-Med,sans-serif;
+    font-size: 5vh;
+    color: #00203FFF
+    letter-spacing: 0.25vh;
+    text-transform: capitalize;
+}
+.eto{
+    margin: 2vh;
+    font-family: Montserrat,sans-serif;
+    font-size: 2.5vh;
+    color: #1a2243;
+}
+.hm{
+    position: absolute;
+    font-family: Montserrat,sans-serif;
+    font-size: 2.5vh;
+    left: 2vw;
+    margin: 2vh;
+    width: 50vw;
+    text-align: justify;
+    color: #112F4D;
+}
+/*cybersecurity services section*/
+/*containers */
+.cybersecurity-1{
+    position: absolute;
+    top: 32vh;
+    border-left: solid thin rgba(0,0,0,0.25);
+    border-right: solid thin rgba(0,0,0,0.25);
+    border-top: solid 0.75vh #181856;
+    border-bottom: solid 0.75vh #181856;
+    width: 19vw;
+    height: 62vh;
+    border-radius: 2vh;
+}
+.cybersecurity-2{
+    position: absolute;
+    top: 32vh;
+    left: 20.5vw;
+    bborder-left: solid thin rgba(0,0,0,0.25);
+    border-right: solid thin rgba(0,0,0,0.25);
+    border-top: solid 0.75vh #181856;
+    border-bottom: solid 0.75vh #181856;
+    width: 19vw;
+    height: 62vh;
+    border-radius: 2vh;
+}
+.cybersecurity-3{
+    position: absolute;
+    top: 32vh;
+    left: 40.85vw;
+    border-left: solid thin rgba(0,0,0,0.25);
+    border-right: solid thin rgba(0,0,0,0.25);
+    border-top: solid 0.75vh #181856;
+    border-bottom: solid 0.75vh #181856;
+    width: 19vw;
+    height: 62vh;
+    border-radius: 2vh;
+}
+
+/*images pngs */
+.img-security-1{
+    width: 7vw;
+    position: relative;
+    left: 6vw;
+    top: 5vh;
+}
+.img-security-2{
+    width: 12vw;
+    position: relative;
+    left: 4vw;
+    top: 5vh;
+}
+.img-security-3{
+    width: 6.75vw;
+    position: relative;
+    left: 6vw;
+    top: 6vh;
+}
+/*text*/
+.security-text-1{
+    position: relative;
+    text-align: center;
+
+    top: 8vh;
+    font-family: Montserrat-SemiBold,sans-serif;
+    color: #112F4D;
+}
+.security-text-2{
+    position: relative;
+    text-align: center;
+
+    top: 6vh;
+    font-family: Montserrat-SemiBold,sans-serif;
+    color: #112F4D;
+}
+.security-text-3{
+    position: relative;
+    text-align: center;
+
+    top: 11.25vh;
+    font-family: Montserrat-SemiBold,sans-serif;
+    color: #112F4D;
+}
+/* security-list */
+.security-list-1{
+    font-family: Montserrat,sans-serif;
+    position: relative;
+    top: 7vh;
+    margin: 2vh;
+    width: 15vw;
+
+    font-size: 1.75vh;
+    padding: 1.25vh;
+}
+.security-list-1 li{
+   margin: 0.5vh;
+}
+.security-list-2{
+    font-family: Montserrat,sans-serif;
+    position: relative;
+    top: 5vh;
+    margin: 2vh;
+    width: 15vw;
+    text-align: justify ;
+    font-size: 1.75vh;
+    padding: 1.25vh;
+}
+.security-list-2 li{
+    margin: 0.5vh;
+}
+.security-list-3{
+    font-family: Montserrat,sans-serif;
+    position: relative;
+    top: 10vh;
+    margin: 2vh;
+    width: 15vw;
+    text-align: justify ;
+    font-size: 1.75vh;
+    padding: 1.25vh;
+}
+.security-list-3 li{
+    margin: 0.5vh;
+}
+
+/*security planning section*/
+.security-planning{
+    width: 60vw;
+    height: 75vh;
+    left: 6.5vw;
+    position: absolute;
+    top: 260vh;
+
+}
+.security{
+    font-family: Oswald-Med,sans-serif;
+    font-size: 5vh;
+    color: #00203FFF
+    letter-spacing: 0.25vh;
+    text-transform: capitalize;
+
+}
+.sulat{
+    position: relative;
+    top: 4.75vh;
+    margin: 1vh;
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+    justify-self: center;
+    vertical-align: middle;
+    font-family: Montserrat-SemiBold,sans-serif;
+    color:  #00203FFF;
+}
+/*containers */
+.cybersecurity-4{
+
+        position: absolute;
+        top: 20vh;
+        left: 13vw;
+        width: 10vw;
+        height: 16vh;
+        border: solid thin rgba(0,0,0,0.25);
+}
+.cybersecurity-5{
+    position: absolute;
+    top: 20vh;
+    left: 24vw;
+    width: 10vw;
+    height: 16vh;
+    border: solid thin rgba(0,0,0,0.25);
+}
+.cybersecurity-6{
+    position: absolute;
+    top: 20vh;
+    left: 35vw;
+    width: 10vw;
+    height: 16vh;
+    border: solid thin rgba(0,0,0,0.25);
+}
+.cybersecurity-7{
+    position: absolute;
+    top: 40vh;
+    left: 13vw;
+    width: 10vw;
+    height: 16vh;
+    border: solid thin rgba(0,0,0,0.25);
+ }
+.cybersecurity-8{
+    position: absolute;
+    top: 40vh;
+    left: 24vw;
+    width: 10vw;
+    height: 16vh;
+    border: solid thin rgba(0,0,0,0.25);
+}
+.cybersecurity-9{
+    position: absolute;
+    top: 40vh;
+    left: 35vw;
+    width: 10vw;
+    height: 16vh;
+    border: solid thin rgba(0,0,0,0.25);
+}
+.cybersecurity-4:hover,.cybersecurity-5:hover,
+.cybersecurity-6:hover,.cybersecurity-7:hover,
+.cybersecurity-8:hover,.cybersecurity-9:hover{
+    box-shadow: 0.15vh 0 0.45vh 0 rgba(0,0,0,0.2);
+}
+.big-data-row-1{
+    width: 60vw;
+    height: 27vh;
+    left: 6.5vw;
+    position: absolute;
+    top: 325vh;
+    box-shadow: 0.25vh 0.1vh 1vh 0.3vh rgba(0,0,0,0.125);
+    border-top: solid 1vh #1E3D58;
+    border-bottom: solid 1vh #1E3D58;
+    border-radius: 2vh;
+}
+.advise-btn{
+    position: absolute;
+    top: 19vh;
+    left: 48vw;
+    padding: 1.5vh;
+    font-family: Montserrat,sans-serif;
+    font-size: 1.75vh;
+    outline: none;
+    border: solid thin rgba(0,0,0,0.1);
+    background-color: #112F4D;
+    color: #c3c8cd;
+}
+.advise-btn:hover{
+    outline: none;
+    background-color: #214872;
+    color: #dfe1e9;
+}
+.solutions-all{
+    margin: 1vh;
+    font-family: Oswald-Med,sans-serif;
+    font-size: 5vh;
+    color: #00203FFF
+    letter-spacing: 0.25vh;
+    text-transform: capitalize;
+}

@@ -1,0 +1,420 @@
+@import AOS from 'aos';
+
+
+@font-face {
+   font-family: Ubuntu-Med-Itallic;
+   src: url("fonts/fonts/Ubuntu-MediumItalic.ttf");
+}
+@font-face {
+   font-family: Ubuntu-Bold;
+   src: url("fonts/fonts/Ubuntu-Bold.ttf");
+}
+@font-face {
+   font-family: Ubuntu-Med;
+   src: url("fonts/fonts/Ubuntu-Medium.ttf");
+}
+@font-face {
+   font-family: Ubuntu-Reg;
+   src: url("fonts/fonts/Ubuntu-Regular.ttf");
+}
+@font-face {
+   font-family: DidactGothic;
+   src: url("fonts/fonts/DidactGothic-Regular.ttf");
+}
+/* the div of the img class="it-services-img" this is to cover the image inside the div itself*/
+.img-of-it-services{
+   width: 200vw;
+   position: absolute;
+   height: 68vh;
+}
+.it-services-img{
+   position: relative;
+   backdrop-filter: contrast(1%) drop-shadow(1vh 2vh gray);
+   mix-blend-mode: multiply;
+   width: 50%;
+   height: 85vh;
+   object-fit: cover;
+   object-position: top center;
+   background-color: #040813;
+   border: solid thin #040813;
+}
+.slogan-0{
+   margin: 3vh;
+   font-family: Ubuntu-Med-Itallic,sans-serif;
+   position: absolute;
+   color: #c5cdd0;
+   top: 25vh;
+   left: 10vw;
+   font-size: 4vh;
+}
+.slogan-1{
+   margin: 3vh;
+   font-family: Ubuntu-Bold,sans-serif;
+   position: absolute;
+   color: #c7d6e5;
+   top: 30vh;
+   left: 15vw;
+   font-size: 10vh;
+   text-shadow: 0.2vh 0.5vh rgba(0,0,0,0.4);
+}
+.divider{
+   max-width: 100%;
+   height: 50vh;
+   background-color:#040813;
+   border: solid thin #040813;
+   position: relative;
+   top: 85vh;
+   mix-blend-mode: multiply;
+   opacity: 1;
+   clip-path: polygon(0 0, 0 19%, 100% 52%, 100% 0);
+   z-index: 1000;
+   filter: fade(2px);
+}
+.our-services-div{
+   position:relative;
+   top: 50vh;
+   height: 20vh;
+   left: 2vw;
+   max-width: 100%;
+   margin: 3vh;
+}
+.our-services-text{
+   position: relative;
+   top: 4vh;
+   font-family: DidactGothic,sans-serif;
+   font-size: 8vh;
+   color: #1d2539;
+   letter-spacing: 0.05vh;
+
+}
+.our-services-paragraph{
+   position: relative;
+   top: 4vh;
+   left: 1vw;
+   font-family:Montserrat,sans-serif;
+   font-size: 3.5vh;
+   color: #1d2539;
+   letter-spacing: 0.05vh;
+}
+.flexbox-container{
+   width: 79%;
+   height: auto;
+   padding: 0;
+   position: relative;
+   left: 7vw;
+   top: 54vh;
+   display: flex;
+   justify-content: center;
+   margin: 3vh;
+
+}
+.services-box{
+   height: 22vh;
+   width: 11vw;
+   background-color: #A9CEE8;
+   margin: 0 4vh;
+   transition: 1s ease-out;
+   border-radius: 1.25vh;
+   justify-content: center;
+   z-index: -1;
+}
+/*Windows Application*/
+.services-box-img-1{
+   margin: 1vh;
+}
+.services-box-text-1{
+   position: absolute;
+   top: 8vh;
+   color: #00061a;
+   margin: 6.5vh;
+   text-align: center;
+   font-family: Montserrat,sans-serif;
+   font-size: 1.75vh;
+   cursor: default;
+}
+.services-box-text-p-1{
+   position: relative;
+   text-align: center;
+   font-size: 1.05vh;
+   font-family: varela,sans-serif;
+   margin-top: 1.25vh;
+   margin-left: 1vh;
+   margin-right: 1vh;
+   display: none;
+   color: #1E3D58;
+   cursor: default;
+}
+/*UI&UX Design*/
+.services-box-img-2{
+   margin: 1vh;
+}
+.services-box-text-2{
+   position: absolute;
+   top: 6.5vh;
+   color: #00061a;
+   margin: 8vh;
+   text-align: center;
+   font-family: Montserrat,sans-serif;
+   font-size: 1.75vh;
+   cursor: default;
+}
+.services-box-text-p-2{
+   position: relative;
+   text-align: center;
+   font-size: 1.05vh;
+   font-family: varela,sans-serif;
+   margin-top: 1.25vh;
+   margin-left: 1vh;
+   margin-right: 1vh;
+   display: none;
+   color: #1E3D58;
+   cursor: default;
+}
+/*QA and Testing*/
+.services-box-img-3{
+   margin: 2vh;
+   width: 5vw;
+}
+.services-box-text-3{
+   position: absolute;
+   top: 6.25vh;
+   color: #00061a;
+   margin: 8.25vh;
+   text-align: center;
+   font-family: Montserrat,sans-serif;
+   font-size: 1.75vh;
+   cursor: default;
+}
+.services-box-text-p-3{
+   position: relative;
+   text-align: center;
+   font-size: 1.05vh;
+   font-family: varela,sans-serif;
+   margin-top: 1.25vh;
+   margin-left: 1vh;
+   margin-right: 1vh;
+   display: none;
+   color: #1E3D58;
+   cursor: default;
+}
+/*Android Application*/
+.services-box-img-4{
+   margin: 1vh;
+   width: 6vw;
+}
+.services-box-text-4{
+   position: absolute;
+   top: 7vh;
+   color: #00061a;
+   margin: 7vh;
+   text-align: center;
+   font-family: Montserrat,sans-serif;
+   font-size: 1.75vh;
+   cursor: default;
+}
+.services-box-text-p-4{
+   position: relative;
+   text-align: center;
+   font-size: 1.05vh;
+   font-family: varela,sans-serif;
+   margin-top: 1.5vh;
+   margin-left: 1vh;
+   margin-right: 1vh;
+   display: none;
+   color: #1E3D58;
+   cursor: default;
+}
+/*Database Application*/
+.services-box-img-5{
+   margin: 1vh;
+   width: 6vw;
+}
+.services-box-text-5{
+   position: absolute;
+   top: 8vh;
+   color: #00061a;
+   margin: 6.5vh;
+   text-align: center;
+   font-family: Montserrat,sans-serif;
+   font-size: 1.75vh;  cursor: default;
+
+}
+.services-box-text-p-5{
+   position: relative;
+   text-align: center;
+   font-size: 1.05vh;
+   font-family: varela,sans-serif;
+   margin-top: 2.25vh;
+   margin-left: 1vh;
+   margin-right: 1vh;
+   display: none;
+   color: #1E3D58;
+   cursor: default;
+}
+
+.view-details-btn{
+   font-family: Montserrat-medium,sans-serif;
+   background-color: transparent;
+   border: solid thin #0C2D48;
+   color:#0C2D48;
+   font-size: 1vh;
+   padding: 0.5vh;
+   margin-top: 0.5vh;
+   display: none;
+   cursor: pointer;
+}
+.flexbox-container:hover .services-box{
+   filter: blur(3px);
+   opacity: 0.5;
+   transform: scale(0.98);
+   box-shadow: none;
+}
+
+.flexbox-container:hover .services-box:hover{
+   transform: scale(2.15);
+   filter: blur(0px);
+   opacity: 1;
+   box-shadow: 0 0.12vh 0.25vh 0.03vh rgba(0,0,0,0.4);
+   z-index: 1000;
+}
+/* windows app hover*/
+.flexbox-container:hover .services-box:hover .services-box-img-1{
+   width: 5vw;
+}
+.flexbox-container:hover .services-box:hover .services-box-text-1{
+   top: 3vh;
+   margin: 8vh;
+   font-size: 1.25vh;
+}
+.flexbox-container:hover .services-box:hover .services-box-text-p-1{
+   display: block;
+}
+/* ui and ux design hover*/
+.flexbox-container:hover .services-box:hover .services-box-img-2{
+   width: 4vw;
+}
+.flexbox-container:hover .services-box:hover .services-box-text-2{
+   top: 0;
+   margin: 9vh;
+   font-size: 1.25vh;
+}
+.flexbox-container:hover .services-box:hover .services-box-text-p-2{
+   display: block;
+}
+/* qa and testing hover*/
+.flexbox-container:hover .services-box:hover .services-box-img-3{
+   width: 4vw;
+}
+.flexbox-container:hover .services-box:hover .services-box-text-3{
+   top: 1.25vh;
+   margin: 9.5vh;
+   font-size: 1.25vh;
+}
+.flexbox-container:hover .services-box:hover .services-box-text-p-3{
+   display: block;
+}
+/* android app hover*/
+.flexbox-container:hover .services-box:hover .services-box-img-4{
+   width: 4vw;
+}
+.flexbox-container:hover .services-box:hover .services-box-text-4{
+   top: 1vh;
+   margin: 8vh;
+   font-size: 1.25vh;
+}
+.flexbox-container:hover .services-box:hover .services-box-text-p-4{
+   display: block;
+}
+/* database management hover*/
+.flexbox-container:hover .services-box:hover .services-box-img-5{
+   width: 3.5vw;
+}
+.flexbox-container:hover .services-box:hover .services-box-text-5{
+   top: 1vh;
+   margin: 8vh;
+   font-size: 1.25vh;
+}
+.flexbox-container:hover .services-box:hover .services-box-text-p-5{
+   display: block;
+}
+
+/*buttons hover*/
+
+.flexbox-container:hover .services-box:hover .view-details-btn{
+   display: block;
+   outline: none;
+}
+
+.flexbox-container:hover .services-box:hover .view-details-btn:hover{
+  color: #1a2c3e;
+}
+
+/*modal*/
+.modal{
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%) scale(0);
+   border: solid thin rgba(0,0,0,0.1);
+   z-index: 1000;
+   background-color: white;
+   width: 30vw;
+   vertical-align: middle;
+   color: #112F4D;
+   max-width: 80%;
+   box-shadow: 0 0.12vh 1vh 0.03vh rgba(0,0,0,0.4);
+   transition: 200ms ease-in-out;
+}
+.modal.active{
+   transform: translate(-50%,-50%) scale(1);
+}
+.modal-header{
+   padding:  2vh;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   border-bottom: solid thin #040813;
+}
+.modal-header .head-title{
+   color: #1a2346;
+   font-size: 4vh;
+   font-family: Montserrat-medium,sans-serif;
+}
+.modal-header .close-button{
+   cursor: pointer;
+   border: none;
+   outline: none;
+   background: none;
+   font-size: 2vh;
+}
+.modal-body{
+   padding: 3vh;
+   font-family: Montserrat,sans-serif;
+}
+.modal-body .text{
+   position: relative;
+   margin: 2vh;
+   font-family: Montserrat,sans-serif;
+}
+.modal-body .sad{
+   position: absolute;
+   margin: 1vh;
+   top: 10vh;
+   left: 21vw;
+   width: 3vw;
+}
+#overlay{
+   position: fixed;
+   opacity: 0;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   background-color: rgba(0,0,0,0.5);
+   pointer-events: none;
+   transition: 200ms ease-in-out;
+}
+#overlay.active{
+   opacity: 1;
+   pointer-events: all;
+}

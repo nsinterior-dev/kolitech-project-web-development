@@ -1,0 +1,46 @@
+/*media query for tablet: 768px */
+
+@media screen and (max-width: 768px) and (min-width: 531px) {
+    .content {
+        height: 350vh !important;
+    }
+
+    .consult-container {
+        top: 19vh;
+        width: 100vw;
+        left: 0;
+    }
+
+    .big-data, .cybersecurity, .service-management, .project-management {
+        width: 100vw;
+        left: 0;
+    }
+
+    .row {
+        top: 55vh;
+        width: 100vw;
+        left: 0;
+    }
+
+    .IT-C {
+        font-size: 4vh;
+        margin: 0 2vh;
+        left: 3vw;
+    }
+
+    .description {
+        margin: 0 2vh;
+        font-size: 2vh;
+    }
+
+
+    .identity {
+        left: 3vw;
+    }
+
+    .solutions-all {
+        font-size: 3.75vh;
+        left: 0
+        position: relative;
+    }
+}

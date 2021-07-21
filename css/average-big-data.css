@@ -1,0 +1,99 @@
+@media screen and (max-width: 1200px) and (min-width: 1024px){
+    .consult-container{
+        width: 22.5vw;
+    }
+    .big-data-row{
+        top: 125vh;
+    }
+    .big-data-div-container-1{
+        height: 45vh;
+    }
+    .big-data-div-container-2{
+        height: 45vh;
+    }
+    .customer-analytics{
+        left: 8vw;
+    }
+    .operational-analytics{
+        left: 7vw;
+    }
+    .png-0{
+        top: 3vh;
+    }
+    .png-1{
+        top: 3vh;
+    }
+    .first-list{
+        top: 25vh;
+        left: 5vw;
+        text-align: left;
+        width: 18vw;
+    }
+    .get-this{
+        top: 38vh;
+        left: 8vw;
+    }
+    .big-data-row-1{
+        top: 185vh;
+        height: 28vh;
+    }
+    .advise-btn{
+        left: 40vw;
+        top: 20vh;
+    }
+    .big-data-row-2{
+        top: 220vh;
+    }
+    .big-data-row-3{
+        top: 255vh;
+    }
+    .sub-title{
+        font-size: 3vh;
+    }
+    .data-1{
+        left: 2.78vw;
+    }
+    .data{
+        left: 1.5vw;
+    }
+    .img-1{
+        top: 1.5vh;
+    }
+    .img-2{
+        top: 1vh;
+    }
+    .img-3{
+        top: 1.5vh;
+    }
+    .img-4{
+        top: 2vh;
+        width: 9vw;
+        left: 0.5vw;
+    }
+    .img-5{
+        top: 1.5vh;
+    }
+    .img-6{
+        top: 2vh;
+        width: 9vw;
+        left: 0.5vw;
+    }
+    .img-7{
+        top: 0;
+        left: 2vw;
+        width: 6vw;
+    }
+    .img-8{
+        top: 0;
+        width: 9vw;
+        left: 0.5vw;
+    }
+    .img-9{
+        top: 1.5vh;
+    }
+    .img-10{
+        top: 2vh;
+        width: 9vw;
+        left: 0.5vw;
+    }
+}

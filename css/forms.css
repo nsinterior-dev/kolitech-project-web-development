@@ -1,0 +1,255 @@
+/*sign-up*/
+*{
+    margin: 0;
+    padding: 0;
+}
+/* imported fonts via fonts.google.com*/
+@font-face {
+    font-family: RussoOne;
+    src: url("fonts/fonts/RussoOne-Regular.ttf");
+}
+@font-face {
+    font-family: Montserrat;
+    src: url("fonts/fonts/Montserrat-Regular.ttf");
+}
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url("fonts/fonts/Montserrat-Black.ttf");
+}
+@font-face {
+    font-family: Montserrat-SemiBold;
+    src: url("fonts/fonts/Montserrat-SemiBold.ttf");
+}
+@font-face {
+    font-family: Montserrat-medium;
+    src: url("fonts/fonts/Montserrat-Medium.ttf");
+}
+@font-face {
+    font-family: varela;
+    src: url("fonts/fonts/VarelaRound-Regular.ttf");
+}
+body{
+    background:linear-gradient(#00061a, #1a2243, #5969c0) no-repeat;
+    height: 100vh;
+    width: 200vw;
+    overflow-x: hidden;
+
+}
+.logo{
+    left: 1vw;
+    position: absolute;
+    top: 1.25vh;
+    font-family: RussoOne, sans-serif;
+    color: white;
+    font-size: 4vh;
+    letter-spacing: 0.25vh;
+    text-decoration: none;
+}
+.form-div{
+    position: absolute;
+    left: 43vw;
+    top: 10vh;
+    width: 20vw;
+    height: 56.5vh;
+   border-style: solid;
+    border-width: thin;
+    border-color: rgba(0,0,0,0.2);
+    background-color: #deeafc;
+   border-radius: 2vh;
+    box-shadow: 0 0.2vh 1vh 0 rgba(0,0,0,0.4);
+}
+.sign-up-form{
+    position: relative;
+    width: 20vw;
+    height: 60vh;
+    padding: 1.2vh;
+}
+.col-2{
+    margin: 0.15vh;
+}
+.email,.fName,.Name,.password, .password2{
+    padding: 1.35vh;
+    width: 17.5vw;
+    height: 6vh;
+    outline: none;
+    font-family: Montserrat,sans-serif;
+    font-size: 2vh;
+    border-style: solid;
+    border-width: thin;
+    border-color: rgba(0,0,0,0.2);
+
+}
+.fName{
+    border-top-right-radius: 1vh;
+    border-top-left-radius: 1vh;
+    border-style: solid;
+    border-width: thin;
+}
+.fName,.Name{
+    text-transform: capitalize;
+}
+
+.submitbtn, .resetbtn{
+    width: 9.35vw;
+    height: 7vh;
+    margin: 0;
+    font-family: Montserrat-medium,sans-serif;
+    letter-spacing: 0.4vh;
+    cursor: pointer;
+    border-style: solid;
+    border-width: thin;
+    transition: ease-in-out 0.2s;
+    border-color: rgba(0,0,0,0.2);
+}
+.submitbtn{
+    border-bottom-left-radius: 1vh;
+    background-color: #00061a;
+    color: #ccd9ff;
+    outline: none;
+}
+.resetbtn{
+    border-bottom-right-radius: 1vh;
+    background-color: #00061a;
+    color: #ccd9ff;
+    outline: none;
+}
+.submitbtn:hover , .resetbtn:hover{
+    background-color: #1a2346;
+    color: white;
+
+}
+.error-message{
+    position: absolute;
+    top: 70vh;
+    left: 43vw;
+    font-family: Montserrat,sans-serif;
+    color:  #FFFF00;
+}
+.error{
+    position: relative;
+    font-family: Montserrat,sans-serif;
+}
+.alt{
+    position: absolute;
+    left: 43vw;
+    top: 75vh;
+    font-family: Montserrat,sans-serif;
+    color: #deeafc;
+    text-decoration: none;
+}
+.account-already{
+    position: relative;
+}
+a.account-already{
+    text-decoration: none;
+    font-family: Montserrat-SemiBold,sans-serif;
+    color: #ccd9ff;
+    font-size: 3vh;
+}
+a.account-already:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+/* SIGN IN */
+.form-div-sign{
+    position: absolute;
+    left: 43vw;
+    top: 10vh;
+    width: 20vw;
+    height: 25vh;
+    border-style: solid;
+    border-width: thin;
+    border-color: rgba(0,0,0,0.2);
+    background-color: #deeafc;
+    border-radius: 2vh;
+    box-shadow: 0 0.2vh 1vh 0 rgba(0,0,0,0.4);
+}
+.sign-form{
+    position: relative;
+    height: 25vh;
+    top: 0.58vh;
+}
+.col-two{
+    margin: 0;
+}
+.sign-in-email, .sign-in-password{
+    position: relative;
+    padding: 1.35vh;
+    width: 17.5vw;
+    height: 6vh;
+    outline: none;
+    font-family: Montserrat,sans-serif;
+    font-size: 2vh;
+    border-style: solid;
+    border-width: thin;
+    left: 0.5vw;
+    border-color: rgba(0,0,0,0.2);
+}
+.sign-in-email{
+    border-top-right-radius: 1vh;
+    border-top-left-radius: 1vh;
+    border-style: solid;
+    border-width: thin;
+}
+.signbtn{
+    border-style: solid;
+    border-width: thin;
+    border-color: rgba(0,0,0,0.2);
+    border-bottom-right-radius: 1vh;
+    border-bottom-left-radius: 1vh;
+    position: relative;
+    left: 0.5vw;
+    width: 18.9vw;
+    outline: none;
+    height: 5.75vh;
+    background-color: #00061a;
+    color: #ccd9ff;
+    font-family: Montserrat-medium, sans-serif;
+    letter-spacing: 0.5vh;
+    cursor: pointer;
+}
+.signbtn:hover{
+    background-color: #1a2346;
+    color: white;
+}
+.sign-in-error{
+    color: #FFFF00;
+    position: absolute;
+    left: 43.5vw;
+    top: 36vh;
+}
+.forget-pass{
+    position: absolute;
+    left: 43.5vw;
+    top: 42vh;
+    font-family: Montserrat,sans-serif;
+    color: #ccd9ff;
+    text-decoration: none;
+
+}
+.forget-pass:hover{
+    color: white;
+    text-decoration: underline;
+}
+.no-account{
+    position: absolute;
+    left: 43.5vw;
+    top: 48vh;
+    text-decoration: none;
+    font-family: Montserrat-SemiBold,sans-serif;
+    color: #ccd9ff;
+    font-size: 2vh;
+}
+.no-account-a{
+    position: relative;
+    text-decoration: none;
+    color: #ccd9ff;
+    font-family: Montserrat-SemiBold,sans-serif;
+    font-size: 2.25vh;
+}
+.no-account-a:hover{
+    text-decoration: underline;
+    color: white;
+}
+/*reset pass*/ 

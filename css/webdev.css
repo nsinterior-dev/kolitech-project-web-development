@@ -1,0 +1,351 @@
+@font-face {
+    font-family: Ubuntu-Med;
+    src: url("fonts/fonts/Ubuntu-Medium.ttf");
+}
+.wb-row{
+    width: 80vw;
+    height: auto;
+    left: 6.5vw;
+    position: absolute;
+    top: 30vh;
+}
+.wb-title{
+    font-family: Oswald-Med,sans-serif;
+    font-size: 6vh;
+    color: #00061a;
+    letter-spacing: 0.25vh;
+}
+.wb-description{
+    position: relative;
+    top: 2vh;
+    font-family: Montserrat,sans-serif;
+    font-size: 2.5vh;
+    color: #00203FFF;
+    text-align: justify;
+    text-justify: inter-word;
+}
+.wb-img-0{
+    margin: 2vh;
+    width: 80%;
+    height: 65vh;
+    object-fit: cover;
+    object-position: top center;
+}
+.wb-row-0{
+    width: 80vw;
+    height: 110vh;
+    left: 6.5vw;
+    position: absolute;
+    top: 120vh;
+
+}
+.wb-sub-title{
+    font-family: Oswald-Med,sans-serif;
+    font-size: 5vh;
+    color: #00203FFF
+    letter-spacing: 0.25vh;
+    margin: 2vh;
+}
+.wb-sub-title-description{
+    position: relative;
+    top: 2vh;
+    font-family: Montserrat,sans-serif;
+    font-size: 2.5vh;
+    color: #00203FFF;
+    text-align: justify;
+    text-justify: inter-word;
+    margin: 2vh;
+}
+.wb-row-div-0, .wb-row-div-1,
+.wb-row-div-2, .wb-row-div-3{
+    width: 80vw; height: 20vh;
+    border: solid thin rgba(0,0,0,0.1);margin-top: 1.75vh;
+    position: relative;
+    top: 5vh;
+    border-radius: 2vh;
+}
+.wb-row-div-0:hover, .wb-row-div-1:hover,
+.wb-row-div-2:hover, .wb-row-div-3:hover{
+    box-shadow: 0.1vh 0.3vh 0.5vh 0.25vh rgba(0,0,0,0.4);
+}
+.wb-sub{
+    margin: 3vh;
+    position: absolute;
+    left: 9vw;
+    font-family:Montserrat-medium,sans-serif;
+    font-size: 3vh;
+    color: #112F4D;
+}
+.wb-paragraph{
+    text-align: justify;
+    font-family: Montserrat,sans-serif;
+    font-size: 2.25vh;
+    margin: 3vh;
+    color:#778899;
+    width: 45vw;
+    position: absolute;
+    top: 5vh;
+    left: 9vw;
+}
+.wb-row-1{
+
+    width: 80vw;
+    height: 50vh;
+    position: relative;
+    top: 225vh;
+    left: 6.5vw;
+}
+.wb-container{
+    width: 100%;
+    height: auto;
+    padding: 0;
+    position: relative;
+
+    top: 5vh;
+    display: flex;
+    justify-content: center;
+
+
+}
+.wb-box{
+    height: 25vh;
+    width: 12.5vw;
+
+    margin-right: 4vh;
+    margin-left: 4vh;
+    justify-content: center;
+    z-index: 1000;
+    box-shadow: 0.1vh 0.3vh 0.5vh 0.25vh rgba(0,0,0,0.4);
+}
+.wb-row-3{
+    width: 80vw;
+    height: 60vh;
+    left: 6.5vw;
+    position: absolute;
+    top: 295vh;
+
+}
+.wb-row-3 .wb-div-container{
+    position: absolute;
+    top: 10.5vh;
+    border: solid thin rgba(0, 0, 0, 0.1);
+    box-shadow: 0.15vh 0 0.05vh 0 rgba(0,0,0,0.2);
+    background-color:#ccd9ff ;
+    height: 55vh;
+    width:30vw;
+}
+.wb-row-3 .wb-side-contents{
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 30vw;
+    height: 55vh;
+    width: 50vw;
+    box-shadow: 0 0.25vh 0.5vh 0 rgba(0, 0, 0, 0.2);
+}
+.btn{
+    width: 30vw;
+    height: 7vh;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    text-align: left;
+    margin: 0;
+
+    text-indent: 2vw;
+    font-family: Montserrat-medium,sans-serif;
+    font-size: 2vh;
+    color: #112F4D;
+    padding: 0;
+}
+.actib, .btn:hover{
+    background-color: rgba(0,0,0,0.1);
+    color: #040813;
+
+}
+.line-line{
+    width: 75%;
+    height: 0;
+    border-top: solid thin rgb(34, 70, 114);
+    top: 5.5vh;
+    left: 0;
+    position:absolute;
+}
+.sub-title{
+    font-family: varela,sans-serif;
+    font-size: 4vh;
+    color: #1e2d48;
+}
+.img-div-1{
+    box-shadow: 0 0 1vh 0.15vh rgba(0,0,0,0.1);
+    width: 10vw;
+    height: 10vh;
+    top: 10vh;
+    position: absolute;
+    background-color: white;
+}
+.img-div-2{
+    box-shadow: 0 0 1vh 0.15vh rgba(0,0,0,0.1);
+    width: 10vw;
+    height: 10vh;
+    top: 10vh;
+    position: absolute;
+    left: 12vw;
+    background-color: white;
+}
+.img-div-3{
+    box-shadow: 0 0 1vh 0.15vh rgba(0,0,0,0.1);
+    width: 10vw;
+    height: 10vh;
+    top: 10vh;
+    left: 24vw;
+    position: absolute;
+    background-color: white;
+}
+.img-div-4{
+    box-shadow: 0 0 1vh 0.15vh rgba(0,0,0,0.1);
+    width: 10vw;
+    height: 10vh;
+    top: 25vh;
+    position: absolute;
+    background-color: white;
+}
+.img-div-5{
+    box-shadow: 0 0 1vh 0.15vh rgba(0,0,0,0.1);
+    width: 10vw;
+    height: 10vh;
+    top: 12vh;
+    position: absolute;
+    background-color: white;
+}
+.img-div-6{
+    box-shadow: 0 0 1vh 0.15vh rgba(0,0,0,0.1);
+    width: 10vw;
+    height: 10vh;
+    top: 12vh;
+    left: 12vw;
+    position: absolute;
+    background-color: white;
+}.img-div-7{
+     box-shadow: 0 0 1vh 0.15vh rgba(0,0,0,0.1);
+     width: 10vw;
+     height: 10vh;
+     top: 30vh;
+     position: absolute;
+     background-color: white;
+ }
+.sub-title-p{
+    position: absolute;
+    top: 8vh;
+    font-family: varela,sans-serif;
+    color: #00061a;
+}
+.sub-title-p-1{
+    position: absolute;
+    top: 26vh;
+    font-family: varela,sans-serif;
+    color: #00061a;
+}
+.img-1{
+    top:0.75vh;
+    width: 4vw;
+    position: relative;
+
+}
+.img-2{
+    top:0;
+    position: relative;
+    width: 5vw;
+}
+.img-3{
+    position: relative;
+    width: 4vw;
+    top:0.75vh;
+}
+.img-4{
+    top: 2vh;
+    left: 1.15vw;
+    position: relative;
+    width: 7vw
+}
+.img-5{
+    top: 0.75vh;
+    position: relative;
+    width: 7vw
+}
+.img-6{
+    position: relative;
+    width: 4.5vw
+}
+.img-7{
+    top: 0.75vh;
+    position: relative;
+    width: 5.5vw;
+}
+.img-8{
+    top: 0.5vh;
+    left: 1.6vw;
+    position: relative;
+    width: 6.5vw;
+}
+.img-9{
+    top: 0.95vh;
+    left: 1.6vw;
+    position: relative;
+    width: 6.5vw;
+}
+.img-10{
+    margin: 0.5vh;
+    position: relative;
+    width: 5vw;
+}
+.img-11{
+   margin: 2vh;
+    position: relative;
+    width: 8vw;
+}
+.wb-row-4{
+    width: 80vw;
+    height: 20vh;
+    left: 6.5vw;
+    position: relative;
+    top: 295vh;
+    box-shadow: 0.25vh 0.1vh 1vh 0.3vh rgba(0,0,0,0.125);
+    border-top: solid 1vh #1E3D58;
+    border-bottom: solid 1vh #1E3D58;
+}
+.find-contact{
+    margin: 4vh;
+    text-align: justify;
+    font-family: Montserrat, sans-serif;
+    color: #112F4D;
+    vertical-align: middle;
+    font-size: 3vh;
+}
+.contact-btn{
+    position: absolute;
+    margin: 2.5vh;
+    top: 0;
+    left: 65vw;
+    padding: 1.5vh;
+    font-family: Montserrat,sans-serif;
+    font-size: 2vh;
+    outline: none;
+    border: solid thin rgba(0,0,0,0.1);
+    background-color: #112F4D;
+    color: #c3c8cd;
+}
+.contact-btn:hover{
+    outline: none;
+    background-color: #214872;
+    color: #dfe1e9
+}
+.slogan-again{
+    margin: 4vh;
+    text-align: justify;
+    font-family: Montserrat, sans-serif;
+    color: #112F4D;
+    font-size: 2vh;
+    vertical-align: middle;
+    position: relative;
+}

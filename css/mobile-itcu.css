@@ -1,0 +1,39 @@
+@media screen and (max-width: 530px) {
+
+    .content{
+        height: 350vh!important;
+    }
+
+    .consult-container{
+        top: 16vh;
+        width: 100vw;
+        left: 0;
+    }
+    .big-data,.cybersecurity,.service-management,.project-management{
+        width: 100vw;
+        left: 0;
+    }
+    .row{
+        top: 52vh;
+        width: 100vw;
+        left: 0;
+    }
+    .IT-C{
+        font-size: 4vh;
+        margin: 0 2vh;
+        left: 3vw;
+    }
+    .description{
+        margin: 0 2vh;
+        font-size: 2vh;
+    }
+    .identity{
+        left: 3vw;
+    }
+    .solutions-all{
+        font-size: 3.75vh;
+        left: 3vw;
+        position: relative;
+    }
+
+}

@@ -1,0 +1,222 @@
+@media screen and (max-width: 530px) {
+
+   .content{
+       height: 350vh!important;
+   }
+
+    .consult-container{
+        top: 16vh;
+        width: 100vw;
+        left: 0;
+    }
+    .big-data,.cybersecurity,.service-management,.project-management{
+        width: 100vw;
+        left: 0;
+    }
+    .row{
+        top: 52vh;
+        width: 100vw;
+        left: 0;
+    }
+    .IT-C{
+        font-size: 4vh;
+        margin: 0 2vh;
+        left: 3vw;
+    }
+    .description{
+        margin: 0 2vh;
+        font-size: 2vh;
+    }
+    .big-data-img{
+        left: 20vw;
+    }
+    .identity{
+        left: 3vw;
+    }
+    .big-data-row{
+        top: 105vh;
+        left: 0;
+    }
+    .solutions-all{
+        font-size: 3.75vh;
+        left: 3vw;
+        position: relative;
+    }
+    .big-data-div-container-1 {
+        top: 15vh;
+        left: 8vw;
+        width: 40vw;
+        height: 63vh;
+    }
+    .png-0{
+        width: 20vw;
+        left: -3.75vw;
+    }
+    .customer-analytics{
+       align-items: center;
+    }
+    .operational-analytics{
+        align-items: center;
+    }
+    .png-1{
+        width: 18vw;
+        left: -1vw;
+    }
+    .big-data-div-container-2 {
+        top: 15vh;
+        left: 53vw;
+        width: 40vw;
+        height: 63vh;
+    }
+    .first-list{
+        width: 25vw;
+        top: 27vh;
+        font-size: 1.85vh;
+        text-align: left;
+    }
+    .get-this{
+        top: 50vh;
+        left: 1.5vw;
+        text-align: left;
+    }
+    .big-data-row-1{
+        top: 190vh;
+        width: 90vw;
+        height: 40vh;
+    }
+    .advise-btn{
+        top: 30vh;
+    }
+    .big-data-row-2{
+        width: 90vw;
+        top: 235vh;
+        height: 60vh;
+    }
+    .big-data-div-container-3{
+        width: 40vw;
+        top: 15vh;
+    }
+    .big-data-div-container-4{
+        width: 40vw;
+        left: 45vw;
+        top: 15vh;
+    }
+    .big-data-div-container-5{
+        top: 35vh;
+        left: 0;
+        width: 40vw;
+    }
+    .big-data-div-container-6{
+        top: 35vh;
+        left: 45vw;
+        width: 40vw;
+    }
+    .hr-big{
+        position: relative;
+        top: 22vh;
+    }
+    .big-data-row-3{
+        width: 90vw;
+        top: 295vh;
+        height: 60vh;
+    }
+    .big-data-side-nav{
+        width: 33vw;
+    }
+    .btn{
+        width:33vw ;
+        font-size: 2vh;
+    }
+    .btn:last-child{
+       font-size: 1.75vh;
+    }
+    .big-data-side-contents{
+        left: 35vw;
+        width: 50vw;
+    }
+    .sub-title{
+        font-size: 2.25vh;
+    }
+    .line-line{
+        width: 40vw;
+    }
+    .img-div-1{
+        width: 17vw;
+        height: 12vh;
+    }
+    .img-div-2{
+        width: 17vw;
+        left: 19vw;
+        height: 12vh;
+    }
+    .img-div-3{
+        top: 22vh;
+        width: 17vw;
+        height: 12vh;
+    }
+
+    .img-div-4{
+        top: 22vh;
+        width: 17vw;
+        left: 19vw;
+        height: 12vh;
+    }
+    .img-1{
+        top: 2vh;
+        width: 16.5vw;
+    }
+    .img-2{
+        top: 3vh;
+        width: 15vw;
+    }
+    .img-3{
+        top: 2vh;
+        width: 15vw;
+    }
+    .img-4{
+        width:15vw;
+        top: 4vh;
+    }
+    .img-5{
+        width: 16vw;
+        top: 2vh;
+    }
+    .img-6{
+        width: 16vw;
+        top: 3vh;
+    }
+    .img-7{
+        width: 16vw;
+        left: 1vw;
+    }
+    .img-8{
+        width: 15vw ;
+        top: 2vh;
+    }
+    .img-9{
+        top: 2vh;
+        width: 15vw;
+    }
+    .img-10{
+        width: 15vw;
+        top: 3vh;
+    }
+    .img-11{
+        width: 14vw;
+        left: 12vw;
+    }
+    .img-12{
+        width: 16vw;
+        left: 12vw;
+    }
+    .img-13{
+        width: 16vw;
+        left: 12vw;
+    }
+    .data-1{
+        left: 10vw;
+    }
+    .data{
+        left: 7vw;
+    }
+}

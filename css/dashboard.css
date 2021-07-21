@@ -1,0 +1,48 @@
+.error{
+    font-size:3vh;
+    text-transform: capitalize;
+    position: relative;
+    color: #deeafc;
+    font-family: Montserrat, sans-serif;
+    left: 76vw;
+    top: 2.15vh;
+    cursor: default;
+}
+.name {
+    font-size:3vh;
+    text-transform: capitalize;
+    position: relative;
+    color: #deeafc;
+    font-family: Montserrat, sans-serif;
+    left: 76vw;
+    top: 1.15vh;
+    cursor: default;
+}
+.fas{
+    position: absolute;
+    top: 2.15vh;
+    left: 73vw;
+    color: #deeafc;
+    cursor: default;;
+}
+.sign-out{
+    position: absolute;
+    text-decoration: none;
+    color: #deeafc;
+    font-family: Montserrat, sans-serif;
+    left: 83vw;
+    top: 2.15vh;
+    font-size:3vh;
+}
+.sign-out:hover{
+    text-decoration: underline;
+}
+
+.div{
+    position: absolute;
+    color: #deeafc;
+    font-family: Montserrat, sans-serif;
+    left: 82vw;
+    top: 2.15vh;
+    font-size:3vh;
+}

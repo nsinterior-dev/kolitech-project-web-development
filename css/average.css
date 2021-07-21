@@ -1,0 +1,56 @@
+@media screen and (max-width: 1200px) and (min-width: 1024px){
+        .sign-up-active{
+            font-size: 2.12vh;
+            border-color: rgba(255,255,255,0.5);
+            border-style: solid;
+            border-width: 0.25vh;
+            line-height: 2;
+            width: 9vw;
+            position: absolute;
+            top: 2vh;
+            left: 69vw;
+        }
+    .button-svg-one-rect{display: none}
+    .button-svg-one{display: none}
+    .sign-up-active:hover{
+        color: white;
+        background-color: #112F4D;
+        border-color: rgba(0,0,0,0.2);
+    }
+    .sign-in-active{
+        font-size: 2.12vh;
+        border-color: rgba(255,255,255,0.5);
+        border-style: solid;
+        border-width: 0.25vh;
+        line-height: 2;
+        width: 9vw;
+        position: absolute;
+        top: 2vh;
+        left: 80vw;
+        height: 4vh;
+    }
+    .button-svg-two-rect{display: none}
+    .button-svg-two{display: none}
+    .sign-in-active:hover{
+        color: white;
+        background-color: #112F4D;
+        border-color: rgba(0,0,0,0.2);
+    }
+    .company-div-items{
+        left: -12vw;
+    }
+    .services-div-items{
+        left: -12vw;
+    }
+    .projects-div-items{
+        left: -13vw;
+    }
+    .support-div-items{
+        left: -13vw;
+    }
+    .company-items, .support-items,.services-items, .projects-items{
+        width: 20vw;
+        font-size: 2vh;
+    }
+
+}

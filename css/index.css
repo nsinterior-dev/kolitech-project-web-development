@@ -1,0 +1,57 @@
+.index-title-1{
+    padding: 2vh;
+    margin: 2vh;
+    font-family: Ubuntu-Bold,sans-serif;
+    font-size: 4vh;
+    position: relative;
+    top: 10vh;
+    left: 6.57vw;
+    color: #1a2c3e;
+}
+.index-description-1{
+    padding: 2vh;
+    margin: 2vh;
+    font-family: Montserrat,sans-serif;
+    font-size: 3vh;
+    position: relative;
+    top: 8vh;
+    left: 6.57vw;
+}
+.index-title-2{
+    padding: 2vh;
+    margin: 2vh;
+    font-family: Ubuntu-Bold,sans-serif;
+    font-size: 4vh;
+    position: relative;
+    top: 10vh;
+    left: 6.57vw;
+    color: #1a2c3e;
+}
+.index-description-2{
+    padding: 2vh;
+    margin: 2vh;
+    font-family: Montserrat,sans-serif;
+    font-size: 2.75vh;
+    position: relative;
+    top: 8vh;
+    left: 6.57vw;
+}
+.index-title-3{
+    padding: 2vh;
+    margin: 2vh;
+    font-family: Ubuntu-Bold,sans-serif;
+    font-size: 4vh;
+    position: relative;
+    top: 10vh;
+    left: 6.57vw;
+    color: #1a2c3e;
+}
+.index-description-3{
+    padding: 2vh;
+    margin: 2vh;
+    font-family: Montserrat,sans-serif;
+    font-size: 2.25vh;
+    position: relative;
+    top: 8vh;
+    left: 6.57vw;
+}
