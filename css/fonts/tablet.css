@@ -1,0 +1,205 @@
+/*media query for tablet: 768px */
+
+@media screen and (max-width: 768px) and (min-width: 531px){
+    .sign-up-active{
+        font-size: 1.6vh;
+        width:15vw;
+        left: 62vw;
+        top: 1.5vh;
+        position: absolute;
+        line-height: 2.75;
+        border-width: thin;
+
+        border-style: solid;
+        border-color: white;
+    }
+    .button-svg-one{
+        display: none;
+    }
+    .button-svg-one-rect{
+        display: none;
+    }
+    .sign-up-active:hover{
+        color: white;
+        background-color: #112F4D;
+        border-color: rgba(0,0,0,0.2);
+    }
+    .sign-in-active{
+        font-size: 1.6vh;
+        width:15vw;
+        height: 4vh;
+        left: 80vw;
+        top: 1.5vh;
+        position: absolute;
+        line-height: 2.75;
+        border-width: thin;
+        padding: 0;
+        border-style: solid;
+        border-color: white;
+    }
+    .button-svg-two{
+        display: none;
+    }
+    .button-svg-two-rect{
+        display: none;
+    }
+    .sign-in-active:hover{
+        color: white;
+        background-color: #112F4D;
+        border-color: rgba(0,0,0,0.2);
+    }
+    .svg-1{
+        display: none;
+    }
+    .svg-text-active{
+        display: none;
+    }
+    .svg-text-1{
+        display: none;
+    }
+    /*navigation*/
+    .company-div{
+        height: 3vh;
+        line-height: 0;
+        left: 0!important;
+    }
+    .services-div{
+        height: 3vh;
+        line-height: 0;
+        left: 10vw!important;
+    }
+    .projects-div{
+        height: 3vh;
+        line-height: 0;
+        left: 20vw!important;
+    }
+    .support-div{
+        height: 3vh;
+        line-height: 0;
+        left: 30vw!important;
+    }
+    .company, .services, .projects{
+        font-size: 2vh;
+        width: 12vw;
+    }
+    .support{
+        font-size: 2vh;
+        width: 12vw;
+    }
+    /*hover*/
+    .company-div:hover .company, .services-div:hover .services,
+    .projects-div:hover .projects, .support-div:hover .support{
+        border-bottom-style: solid;
+        border-bottom-width: 0.5vh!;
+        border-bottom-color: #7733CC!important;
+    }
+    /* the block of the items*/
+    .company-div-items{
+        max-width: 100%;
+        margin-top: 6.1vh;
+        left: -16.75vw;
+        float: left;
+        display: block;
+        border-color: rgba(0,0,0,0.2) ;
+        border-width: thin;
+        z-index: 9999;
+        box-shadow: 1.5em -3em 4.2em -3.6em rgba(0,0,2,1.8);
+    }
+    .services-div-items{
+        position: relative;
+        margin-top: 6.25vh;
+        max-width: 100%;
+        left: -34.25vw;
+        float: left;
+        display: block;
+        top: 0.25vh;
+        border-color: #00061a;
+        border-width: thin;
+        z-index: 9999;
+        box-shadow: 1.5em -3em 4.2em -3.6em rgba(0,0,2,1.8);
+    }
+    .projects-div-items{
+        position: relative;
+        margin-top: 6.25vh;
+        max-width: 100%;
+        left: -55.25vw;
+        float: left;
+        display: block;
+        top: 0.25vh;
+        border-color: #00061a;
+        border-width: thin;
+        z-index: 9999;
+
+        box-shadow: 1.5em -3em 4.2em -3.6em rgba(0,0,2,1.8);
+
+    }
+    .support-div-items{
+        position: relative;
+        margin-top: 6.25vh;
+        max-width: 100%;
+        left: -71vw;
+        float: left;
+        display: block;
+        top: 0.25vh;
+        border-color: #00061a;
+        border-width: thin;
+        z-index: 9999;
+        box-shadow: 1.5em -3em 4.2em -3.6em rgba(0,0,2,1.8);
+    }
+    /* the items*/
+    .projects-items{
+        background-color: #fff;
+
+        width: 100vw;
+        height: 4vh;
+        vertical-align: middle;
+        font-size: 1.85vh;
+        top: -10vh;
+        padding: 2vh 2.5vh;
+        justify-items: left;
+        text-decoration: none;
+        color: #00061a;
+        font-family: Montserrat, sans-serif;
+        display: none;
+    }
+    .support-items{
+        background-color: #fff;
+
+        width: 100vw;
+        height: 4vh;
+        vertical-align: middle;
+        font-size: 1.85vh;
+        top: -10vh;
+        padding: 2vh 2.5vh;
+        justify-items: left;
+        text-decoration: none;
+        color: #00061a;
+        font-family: Montserrat, sans-serif;
+        display: none;
+    }
+    .company-items,  .services-items{
+        background-color: #fff;
+        width: 100vw;
+        height: 4vh;
+        vertical-align: middle;
+        font-size: 1.85vh;
+        top: -10vh;
+        padding: 2vh 2.5vh;
+        text-decoration: none;
+        color: #00061a;
+        font-family: Montserrat, sans-serif;
+        display: none;
+    }
+    /* when you hover the div, the items will display block*/
+    .company-div:hover .company-items, .services-div:hover .services-items,
+    .projects-div:hover .projects-items, .support-div:hover .support-items{
+        display: block;
+    }
+    /* this is when you hover the items*/
+    .company-items:hover,.support-items:hover,
+    .services-items:hover, .projects-items:hover{
+        background-color: 	#ccd9ff;
+        color: #00061a;
+    }
+
+}

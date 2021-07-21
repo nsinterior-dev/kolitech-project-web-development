@@ -1,0 +1,200 @@
+/*project management*/
+.dess{
+    position: relative;
+    top: 2vh;
+    font-family: Montserrat,sans-serif;
+    font-size: 2.5vh;
+    color: #00203FFF;
+    text-align: justify;
+    text-justify: inter-word;
+}
+.pm-div-0{
+    width: 60vw;
+    height: 55vh;
+    box-shadow: 0.25vh 0.1vh 1vh 0.3vh rgba(0,0,0,0.125);
+    border-top: solid 1vh #1E3D58;
+    border-bottom: solid 1vh #1E3D58;
+    left: 6.5vw;
+    border-radius: 2vh;
+    position: absolute;
+    top: 175vh;
+}
+.pm-approach{
+    font-family: Oswald-Med,sans-serif;
+    font-size: 4vh;
+    color: #00203FFF;
+    letter-spacing: 0.25vh;
+    position: absolute;
+    margin: 3vh;
+    left: 12vw;
+    top: 0;
+    text-transform: capitalize;
+}
+.pm-paragraph{
+    font-family: Montserrat,sans-serif;
+    font-size: 2.5vh;
+    color: #668eac;
+    position: absolute;
+    margin: 3vh;
+    text-align: justify;
+    left: 12vw;
+    top: 6vh;
+    width: 40vw;
+}
+.pm-list{
+    position: absolute;
+    margin: 3vh;
+    left: 13vw;
+    top: 15vh;
+    width: 40vw;
+    text-align: justify;
+    font-family: Montserrat,sans-serif;
+    font-size: 2.25vh;
+
+}
+.pm-list li{
+    margin-top: 0.5vh;
+    color: #313b66;
+}
+.advise-btn{
+    position: absolute;
+    top: 42vh;
+    margin: 3vh;
+    left: 12vw;
+    padding: 1.5vh;
+    font-family: Montserrat,sans-serif;
+    font-size: 1.75vh;
+    outline: none;
+    border: solid thin rgba(0,0,0,0.1);
+    background-color: #112F4D;
+    color: #c3c8cd;
+}
+.advise-btn:hover{
+    outline: none;
+    background-color: #214872;
+    color: #dfe1e9;
+}
+.pm-div-1{
+    width: 60vw;
+    height: 75vh;
+
+
+    left: 6.5vw;
+    border-radius: 2vh;
+    position: absolute;
+    top: 237vh;
+}
+.pm-approach-1{
+    font-family: Oswald-Med,sans-serif;
+    font-size: 4vh;
+    color: #00203FFF;
+    letter-spacing: 0.25vh;
+    position: absolute;
+    margin: 2vh;
+
+    top: 0;
+    text-transform: capitalize;
+}
+/*project management services section*/
+/*containers */
+.pm-1{
+    position: absolute;
+    top: 11vh;
+    border-left: solid thin rgba(0,0,0,0.25);
+    border-right: solid thin rgba(0,0,0,0.25);
+    border-top: solid 0.75vh #181856;
+    border-bottom: solid 0.75vh #181856;
+    width: 19vw;
+    height: 58vh;
+    border-radius: 2vh;
+}
+.pm-2{
+    position: absolute;
+    top: 11vh;
+    left: 20.5vw;
+    bborder-left: solid thin rgba(0,0,0,0.25);
+    border-right: solid thin rgba(0,0,0,0.25);
+    border-top: solid 0.75vh #181856;
+    border-bottom: solid 0.75vh #181856;
+    width: 19vw;
+    height: 58vh;
+    border-radius: 2vh;
+}
+.pm-3{
+    position: absolute;
+    top: 11vh;
+    left: 40.85vw;
+    border-left: solid thin rgba(0,0,0,0.25);
+    border-right: solid thin rgba(0,0,0,0.25);
+    border-top: solid 0.75vh #181856;
+    border-bottom: solid 0.75vh #181856;
+    width: 19vw;
+    height: 58vh;
+    border-radius: 2vh;
+}
+.pm-text-1{
+    margin: 2vh;
+    font-family: varela,sans-serif;
+    color: #1a2243;
+    font-size: 3vh;
+}
+.pm-list-1{
+    margin: 3vh;
+    position: relative;
+    top: 0;
+}
+.pm-list-1 li{
+    text-justify: inter-word;
+    color: #313b66;
+    font-family: Montserrat,sans-serif;
+    font-size: 1.75vh;
+    padding: 0.5vh;
+}
+.pm-list-2{
+    margin: 3vh;
+    position: relative;
+    top: 3.25vh;
+}
+.pm-list-2 li{
+    text-justify: inter-word;
+    color: #313b66;
+    font-family: Montserrat,sans-serif;
+    font-size: 1.75vh;
+    padding: 0.5vh;
+}
+.pm-div-2{
+    width: 60vw;
+    height: 25vh;
+    left: 6.5vw;
+    position: absolute;
+    top: 315vh;
+    box-shadow: 0.25vh 0.1vh 1vh 0.3vh rgba(0,0,0,0.125);
+    border-top: solid 1vh #1E3D58;
+    border-bottom: solid 1vh #1E3D58;
+    border-radius: 2vh;
+}
+.solutions-all{
+    margin: 1vh;
+    font-family: Oswald-Med,sans-serif;
+    font-size: 5vh;
+    color: #00203FFF
+    letter-spacing: 0.25vh;
+    text-transform: capitalize;
+}
+.lead-btn{
+    position: absolute;
+    top: 17vh;
+    left: 41vw;
+    padding: 1.5vh;
+    font-family: Montserrat,sans-serif;
+    font-size: 1.75vh;
+    outline: none;
+    border: solid thin rgba(0,0,0,0.1);
+    background-color: #112F4D;
+    color: #c3c8cd;
+}
+.lead-btn:hover{
+    outline: none;
+    background-color: #214872;
+    color: #dfe1e9;
+}

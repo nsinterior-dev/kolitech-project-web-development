@@ -1,0 +1,113 @@
+.row{
+    width: 65vw;
+    height: 70vh;
+    left: 6.5vw;
+    position: absolute;
+    top: 30vh;
+}
+.title{
+    font-family: Oswald-Med,sans-serif;
+    font-size: 6vh;
+    color: #00061a;
+
+}
+.pangungusap{
+    font-family: Montserrat,sans-serif;
+    font-size: 3vh;
+    color:#1E3D58;
+}
+.panuto{
+    font-family: varela,sans-serif;
+    width: 50vw;
+    text-align: justify;
+    color: #112F4D;
+    margin: 3vh;
+    position: relative;
+    top: 2vh;
+}
+.contact-form{
+    position: relative;
+    left: 13vw;
+    margin: 3vh;
+    height: 55vh;
+    background-color:#A9CEE8;
+    width: 60vw;
+    box-shadow: 0 1vh 0.5vh 0 rgba(0,0,0,0.4);
+}
+.company-name,.full-name,.work-email{
+    padding: 2vh;
+    margin: 2vh;
+    font-family: Montserrat,sans-serif;
+}
+.company-name,.full-name{
+    padding: 2vh;
+    margin: 2vh;
+    width: 25vw;
+}
+.work-email{
+    position: relative;
+    left: 1vh;
+    margin-top: 1vh;
+    top: 0;
+    width: 25vw;
+}
+.full-name{
+    position: relative;
+    left: 1vh;
+}
+.textarea{
+    padding: 2vh;
+    height: 7vh;
+    width: 54vw;
+    position: relative;
+    left: 3vh;
+    margin-top: 1vh;
+    top: 0;
+    font-family: Montserrat,sans-serif;
+
+}
+.company-name:focus, .work-email:focus,
+.full-name:focus,.textarea:focus{
+    outline: none;
+}
+.upload-file{
+    position: absolute;
+    left: 1.45vw;
+    top: 40vh;
+    width: 56vw;
+    height: 5vh;
+    background-color: #1a2243;
+    align-items: center;
+    justify-content: center;
+}
+input[type='file']{
+    display: none;
+
+}
+label{
+    color:white;
+    cursor: pointer;
+    width: 56vw;
+    position: relative;
+    font-size: 2vh;
+    top: 1vh;
+    left: 1vh;
+    font-family: Montserrat,sans-serif;
+
+}
+.requestbtn{
+    position:relative;
+    top: 3.5vh;
+    margin: 2vh;
+    left: 23vw;
+    padding: 1.5vh;
+    outline: none;
+    background-color: #1e2d48;
+    color: #c7d5e0;
+    border: none;
+    cursor: pointer;
+}
+.requestbtn:hover{
+    background-color: #33466d;
+    color: #ffffff;
+}

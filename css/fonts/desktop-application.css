@@ -1,0 +1,200 @@
+/* imported fonts via fonts.google.com*/
+@font-face {
+    font-family: Oswald-Med;
+    src: url("fonts/fonts/Oswald-Medium.ttf");
+}
+@font-face {
+    font-family: Oswald-Reg;
+    src: url("fonts/fonts/Oswald-Regular.ttf");
+}
+.da-row{
+    width: 80vw;
+    height: 30vh;
+    left: 6.5vw;
+    position: absolute;
+    top: 30vh;
+
+}
+
+.da-title{
+
+    font-family: Oswald-Med,sans-serif;
+    font-size: 6vh;
+    color: #00061a;
+    letter-spacing: 0.25vh;
+}
+.da-description{
+    position: relative;
+    top: 2vh;
+    font-family: Montserrat,sans-serif;
+    font-size: 2.5vh;
+    color: #00203FFF;
+    text-align: justify;
+    text-justify: inter-word;
+}
+.da-row-1{
+    width: 80vw;
+    height: 50vh;
+    left: 6.5vw;
+    position: relative;
+    top: 123vh;
+    border: solid thin rgba(0,0,0,0.1);
+    box-shadow: 0.25vh 0.1vh 1vh 0.3vh rgba(0,0,0,0.125);
+    border-radius: 2vh;
+}
+.da-sub-title{
+    font-family: Oswald-Med,sans-serif;
+    font-size: 5vh;
+    color: #00203FFF;
+    letter-spacing: 0.25vh;
+    text-transform: capitalize;
+    margin: 2vh;
+}
+.da-row-container{
+    width: 80%;
+    height: auto;
+    padding: 0;
+    position: absolute;
+    left: 7vw;
+    top: 10vh;
+    display: flex;
+    justify-content: center;
+    margin: 1.5vh;
+
+
+}
+.da-row-1-box{
+    height: 30vh;
+    width: 17vw;
+
+   margin-left: 5vh;
+    margin-right: 6vh;
+    transition: 1s ease-out;
+    border-radius: 1.25vh;
+    justify-content: center;
+
+}
+.fas.fa-microchip{
+    position: relative;
+    top: 4.5vh;
+    color: #351806;
+}
+.fas.fa-hand-pointer{
+    position: relative;
+    top: 4.5vh;
+    color: #351806;
+}
+.fas.fa-user-shield{
+    position: relative;
+    top: 4.5vh;
+    color: #351806;
+}
+.da-row-1-box-sub{
+    position: relative;
+    top: 5.75vh;
+    font-family: Oswald-Reg,sans-serif;
+    font-size: 2vh;
+    color: #0C2D48;;
+}
+.da-row-1-box-p{
+    position: relative;
+    top: 6.5vh;
+    font-family: varela,sans-serif;
+    color: #4a515b;
+    font-size: 2vh;
+}
+.da-row-2{
+    width: 80vw;
+    height: 50vh;
+    left: 6.5vw;
+    position: relative;
+    top: 130vh;
+
+    border-radius: 2vh;
+}
+.lang-img-1{
+    width: 7vw;
+    position: relative;
+    top: 5.75vh;
+}
+.da-row-1-box-sub-1{
+    position: relative;
+    top: 6vh;
+    font-family: Oswald-Reg,sans-serif;
+    font-size: 4vh;
+    color: #0C2D48;;
+}
+.da-row-1-box-1{
+    height: 30vh;
+    width: 17vw;
+
+    margin-left: 5vh;
+    margin-right: 6vh;
+    transition: 1s ease-out;
+    border-radius: 1.25vh;
+    justify-content: center;
+
+}
+.da-row-1-box-1:hover{
+    box-shadow: 0.25vh 0.1vh 1vh 0.3vh rgba(0,0,0,0.125);
+}
+.da-row-3{
+    width: 80vw;
+    height: 20vh;
+    left: 6.5vw;
+    position: relative;
+    top: 130vh;
+    box-shadow: 0.25vh 0.1vh 1vh 0.3vh rgba(0,0,0,0.125);
+    border-top: solid 1vh #1E3D58;
+    border-bottom: solid 1vh #1E3D58;
+}
+.find-contact{
+    margin: 4vh;
+    text-align: justify;
+    font-family: Montserrat, sans-serif;
+    color: #112F4D;
+    vertical-align: middle;
+    font-size: 3vh;
+}
+.contact-btn{
+    position: absolute;
+    margin: 2.5vh;
+    top: 0;
+    left: 65vw;
+    padding: 1.5vh;
+    font-family: Montserrat,sans-serif;
+    font-size: 2vh;
+    outline: none;
+    border: solid thin rgba(0,0,0,0.1);
+    background-color: #112F4D;
+    color: #c3c8cd;
+}
+.contact-btn:hover{
+    outline: none;
+    background-color: #214872;
+    color: #dfe1e9
+}
+.slogan-again{
+    margin: 4vh;
+    text-align: justify;
+    font-family: Montserrat, sans-serif;
+    color: #112F4D;
+    font-size: 2vh;
+    vertical-align: middle;
+    position: relative;
+}
+.fas.fa-microchip{
+    text-align: center;
+    position: relative;
+    left: 6vw;
+}
+.fas.fa-hand-pointer{
+    text-align: center;
+    position: relative;
+    left: 6vw;
+}
+.fas.fa-user-shield{
+    text-align: center;
+    position: relative;
+    left: 6vw;
+}

@@ -1,0 +1,232 @@
+/*media query for tablet: 768px */
+
+@media screen and (max-width: 1024px) and (min-width: 769px){
+    .content{
+        height: 350vh!important;
+    }
+
+    .consult-container{
+        top: 19vh;
+        width: 100vw;
+        left: 0;
+    }
+    .big-data,.cybersecurity,.service-management,.project-management{
+        width: 100vw;
+        left:0;
+    }
+    .row{
+        top: 55vh;
+        width: 90vw;
+        left: 4vw;
+    }
+    .IT-C{
+        font-size: 4vh;
+        margin: 0 2vh;
+        left: 3vw;
+    }
+    .description{
+        margin: 0 2vh;
+        font-size: 2vh;
+    }
+    .big-data-img{
+        left: 20vw;
+    }
+    .identity{
+        left: 3vw;
+    }
+    .big-data-row{
+        top: 130vh;
+        left: 4vw;
+        width: 90vw;
+    }
+    .solutions-all{
+        font-size: 3.75vh;
+        left: 0
+        position: relative;
+    }
+    .big-data-div-container-1 {
+        top: 10vh;
+        left: 5vw;
+        width: 40vw;
+        height: 63vh;
+    }
+    .png-0{
+        width: 20vw;
+        left: -3.75vw;
+    }
+    .customer-analytics{
+        left: 10vw;
+        top: 32vh;
+    }
+    .operational-analytics{
+        left: 9vw;
+        top: 32vh;
+    }
+    .png-1{
+        width: 18vw;
+        left: -1vw;
+    }
+    .big-data-div-container-2 {
+        top: 10vh;
+        left: 50vw;
+        width: 40vw;
+        height: 63vh;
+    }
+    .first-list{
+        width: 25vw;
+        top: 36vh;
+        font-size: 1.85vh;
+        text-align: left;
+    }
+    .get-this{
+        top: 50vh;
+        left: 14vw;
+
+    }
+    .big-data-row-1{
+        top: 210vh;
+        width: 90vw;
+        height: 30vh;
+    }
+    .advise-btn{
+        top: 20vh;
+        left: 55vw;
+    }
+    .big-data-row-2{
+        width: 90vw;
+        top: 245vh;
+        height: 60vh;
+    }
+    .big-data-div-container-3{
+        width: 40vw;
+        top: 10vh;
+    }
+    .big-data-div-container-4{
+        width: 40vw;
+        left: 45vw;
+        top: 10vh;
+    }
+    .big-data-div-container-5{
+        top: 30vh;
+        left: 0;
+        width: 40vw;
+    }
+    .big-data-div-container-6{
+        top: 30vh;
+        left: 45vw;
+        width: 40vw;
+    }
+    .hr-big{
+        position: relative;
+        top: 22vh;
+    }
+    .big-data-row-3{
+        width: 90vw;
+        top: 298vh;
+        height: 60vh;
+    }
+    .big-data-side-nav{
+        width: 33vw;
+    }
+    .btn{
+        width:33vw ;
+        font-size: 2vh;
+    }
+    .btn:last-child{
+        font-size: 1.75vh;
+    }
+    .big-data-side-contents{
+        left: 35vw;
+        width: 50vw;
+    }
+    .sub-title{
+        font-size: 2.25vh;
+    }
+    .line-line{
+        width: 40vw;
+    }
+    .img-div-1{
+        width: 17vw;
+        height: 12vh;
+    }
+    .img-div-2{
+        width: 17vw;
+        left: 19vw;
+        height: 12vh;
+    }
+    .img-div-3{
+        top: 22vh;
+        width: 17vw;
+        height: 12vh;
+    }
+
+    .img-div-4{
+        top: 22vh;
+        width: 17vw;
+        left: 19vw;
+        height: 12vh;
+    }
+    .img-1{
+        top: 2vh;
+        width: 16.5vw;
+    }
+    .img-2{
+        top: 1vh;
+        width: 15vw;
+    }
+    .img-3{
+        top: 1vh;
+        width: 13vw;
+    }
+    .img-4{
+        width:15vw;
+        top: 3vh;
+    }
+    .img-5{
+        width: 14vw;
+        top: 0;
+    }
+    .img-6{
+        width: 16vw;
+        top: 1vh;
+    }
+    .img-7{
+        width: 8vw;
+        left: 5vw;
+    }
+    .img-8{
+        width: 10vw ;
+        top: 1vh;
+        left: 3vw;
+    }
+    .img-9{
+        top: 1vh;
+        width: 13vw;
+    }
+    .img-10{
+        width: 15vw;
+        top: 2vh;
+    }
+    .img-11{
+        width: 10vw;
+        left: 18vw;
+        top: 1vh;
+    }
+    .img-12{
+        top: 1vh;
+        width: 16vw;
+        left: 18vw;
+    }
+    .img-13{
+        top: 0;
+        width: 14vw;
+        left: 18vw;
+    }
+    .data-1{
+        left: 7vw;
+    }
+    .data{
+        left: 5vw;
+    }
+
+}

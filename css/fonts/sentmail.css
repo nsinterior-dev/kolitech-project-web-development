@@ -1,0 +1,26 @@
+@font-face {
+    font-family: Montserrat;
+    src: url("fonts/fonts/Montserrat-Regular.ttf");
+}
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url("fonts/fonts/Montserrat-Black.ttf");
+}
+@font-face {
+    font-family: Montserrat-SemiBold;
+    src: url("fonts/fonts/Montserrat-SemiBold.ttf");
+}
+.fa{
+    color: white;
+    position: absolute;
+    left: 44vw;
+    top: 12vh;
+    font-size: 20vh;
+}
+.sent{
+    color: white;
+    font-family: Montserrat,sans-serif;
+    position: absolute;
+    top: 50vh;
+    left: 31vw;
+}
